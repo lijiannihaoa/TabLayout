@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/tabImg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/shopping_home_tab_found"/>
+
+        <TextView
+            android:id="@+id/tabTxt"
+            android:text="1111"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tabImg"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
